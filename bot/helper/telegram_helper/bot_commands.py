@@ -1,0 +1,27 @@
+class _BotCommands:
+    def __init__(self):
+        self.StartCommand = 'start'
+        self.MirrorCommand = 'gokumirror'
+        self.UnzipMirrorCommand = 'gunzipmirror'
+        self.TarMirrorCommand = 'gtarmirror'
+        self.CancelMirror = 'gcancel'
+        self.CancelAllCommand = 'gcancelall'
+        self.ListCommand = 'glist'
+        self.StatusCommand = 'gstatus'
+        self.AuthorizeCommand = 'authorize'
+        self.UnAuthorizeCommand = 'unauthorize'
+        self.AuthListCommand = 'authlist'
+        self.PingCommand = 'gping'
+        self.RestartCommand = 'restart'
+        self.StatsCommand = 'gstats'
+        self.HelpCommand = 'help'
+        self.LogCommand = 'log'
+        self.SpeedCommand = 'gokuspeedtest'
+        self.CloneCommand = 'gclone'
+        self.WatchCommand = 'gwatch'
+        self.TarWatchCommand = 'gtarwatch'
+        self.DeleteCommand = 'del'
+        self.UsageCommand = 'gusage'
+        self.RepoCommand = 'repo'
+
+BotCommands = _BotCommands()
